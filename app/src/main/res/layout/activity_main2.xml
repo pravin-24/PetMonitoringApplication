@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_wrapper"
+    android:background="@color/blue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout android:id="@+id/lay_action"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/label_header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="10px"
+            android:text="Dashboard"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lay_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay_action"
+        android:layout_centerInParent="true"
+        android:background="@color/blue"
+        android:paddingTop="25px">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:padding="25dip"
+            android:text="Locate Pet" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="61dp"
+            android:layout_toRightOf="@id/button1"
+            android:padding="25dip"
+            android:text="Feed Pet" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button1"
+            android:layout_marginTop="34dp"
+            android:padding="25dip"
+            android:text="About Pets" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button2"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="34dp"
+            android:layout_toRightOf="@id/button3"
+            android:padding="25dip"
+            android:text="Pet Stats" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button3"
+            android:layout_marginTop="34dp"
+            android:padding="25dip"
+            android:text="Camera" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button4"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="34dp"
+            android:layout_toRightOf="@id/button5"
+            android:padding="25dip"
+            android:text="About Us" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button5"
+            android:layout_marginTop="34dp"
+            android:padding="25dip"
+            android:text="Pet Care" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button6"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="34dp"
+            android:layout_toRightOf="@id/button7"
+            android:padding="25dip"
+            android:text="Feedback" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button7"
+            android:layout_marginTop="34dp"
+            android:padding="25dip"
+            android:text="Add Pet" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/button8"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="34dp"
+            android:layout_toRightOf="@id/button9"
+            android:padding="25dip"
+            android:text="More" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

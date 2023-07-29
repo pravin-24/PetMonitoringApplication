@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "504722106944",
+    "project_id": "petmonitor-46d37",
+    "storage_bucket": "petmonitor-46d37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504722106944:android:5f1c6e36303e649ccf8da5",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504722106944-51590jcrrruci78l8eo5g1gmsqn7l16i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFpdrvAF6Gy1vq0Xoc5mZE_6ymeodZNRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504722106944-51590jcrrruci78l8eo5g1gmsqn7l16i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

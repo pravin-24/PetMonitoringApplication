@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtvw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#4C374A"
+        android:padding="10dp"
+        android:text=" About Application"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:cropToPadding="true"
+        app:srcCompat="@drawable/c62eb" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="210dp"
+        android:outlineAmbientShadowColor="@color/white"
+        app:srcCompat="@android:drawable/ic_media_ff" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="165dp"
+        app:srcCompat="@android:drawable/ic_media_rew" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:text="          This application is used for monitoring the pets from our mobile phone. This is useful for the
+owners who went for work and monitor their pets in their mobile phones. If their pets lose, we can easily detect
+the pet's location using this application."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="570dp"
+        android:text="About Creators" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/c62eb" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="380dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/applogo"
+        tools:visibility="visible" />
+</FrameLayout>
